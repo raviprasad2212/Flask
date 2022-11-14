@@ -1,0 +1,9 @@
+# @server = localhost:5051
+
+# @POST http://{{server}}
+
+# query{
+#   ec2describ{
+#     data
+#   }
+# }
