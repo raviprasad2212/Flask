@@ -11,5 +11,9 @@ app.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=sch
 )
 
 
+@app.route('/obj')
+def showmw():
+    return 'Data here'
+
 if __name__ == '__main__':
      app.run(debug=True, port=5051, host='0.0.0.0')

@@ -9,8 +9,8 @@ def s3_status():
         s3 = boto3.client('s3',
                         aws_access_key_id='AKIAWNSJ6X6ELKMYFRFV',
                         aws_secret_access_key='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')
-
-        bucket = 'my-bucketcybage'
+        print(s3)
+        bucket = 'cybagedddad'
         s3.create_bucket(Bucket=bucket)
         if s3:
             msg = '{} Created in S3'.format(bucket)
