@@ -1,6 +1,6 @@
 from graphene import ObjectType
 
-from .s3_operations import MyS3status
+from .s3_create_bucket import MyS3status
 from .ec2_descrip import MyEc2Describ
 
 
